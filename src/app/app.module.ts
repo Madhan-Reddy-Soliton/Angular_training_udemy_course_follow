@@ -21,6 +21,7 @@ import { AuthComponent } from './auth/auth/auth.component';
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 import { AuthInterceptorService } from './auth/auth/auth-interceptor.service';
 import { AuthGuard } from './auth/auth/auth.guard';
+import { AlertComponent } from './shared/alert/alert.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { AuthGuard } from './auth/auth/auth.guard';
     RecipeEditComponent,
     AuthComponent,
     LoadingSpinnerComponent,
+    AlertComponent,
   ],
   imports: [
     BrowserModule,
